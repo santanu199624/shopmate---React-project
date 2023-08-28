@@ -1,0 +1,29 @@
+.addtask{
+    /* border: 1px solid red; */
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.addtask input{
+    width: 250px;
+    height: 25px;
+    
+    outline: 0;
+}
+
+
+.addtask button{
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,69 @@
+.showtask{
+    /* border: 1px solid red; */
+    margin: 50px 8%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .count{
+    margin-left: 12px;
+}
+
+.clearAll{
+    background-color: palevioletred;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.showtask ul{
+    /* border: 1px solid green; */
+    margin: 30px 5px 20px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.showtask li{
+    padding: 15px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    width: 350px;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 5px solid #1365dfaf;
+    border-radius: 5px;
+}
+
+.showtask li p{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.showtask li div{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 6px;
+}
+
+.showtask li div .fa-trash{
+    color: red;
+}
+
+.showtask li div .fa-pen-to-square{
+    color: blueviolet;
+}
